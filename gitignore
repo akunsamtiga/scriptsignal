@@ -1,0 +1,31 @@
+# ─── Konfigurasi sensitif — JANGAN di-commit ───
+.env
+
+# ─── Log files ───
+*.log
+logs/
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+.Python
+
+# ─── Virtual environment ───
+venv/
+env/
+.venv/
+.env/
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
